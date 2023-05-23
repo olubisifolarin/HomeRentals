@@ -1,0 +1,629 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  scroll-behavior: smooth;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.backgro{
+position: absolute;
+height: 700px;
+width: 100%;
+}
+
+.bg_image{
+  position: relative;
+  display: flex;
+  margin-left: 5rem;
+}
+
+.nav-links{
+  display: flex;
+  list-style: none;
+  margin-left: 8%;
+  padding: 2.5rem;
+}
+
+.nav-link{
+  text-align: center;
+  margin: 2rem;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.loggo{
+  margin-top: -10rem;
+}
+
+.nav-icon{
+  display: none;
+}
+
+h1{
+  word-break: break-word;
+  width: 500px;
+  color: white;
+  font-size: 30px;
+  line-height: 1.5;
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-left: 3rem;
+}
+
+.Fransico{
+  display: flex;
+  margin: 30px;
+  margin-top: 70px;
+}
+.bgText{
+  margin-top: 5.5rem;
+}
+
+.map{
+  float: right;
+  margin-right: 70px;
+}
+
+.neighbour{
+  border: 1px solid whitesmoke;
+  border-radius: 15px;
+  margin: 13px;
+  width: 100px;
+  height: 25px;
+  width: 150px;
+}
+
+.search{
+  background-color: white;
+  display: inline-flex;
+  border-radius: 20px;
+  margin-top: 10px;
+  float: right;
+  margin-right: 90px;
+  width: 380px;
+  height: 50px;
+  text-align: center;
+}
+
+.allType{
+  display: inline-block; 
+}
+
+.faSearch{
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  font-size: 2.2rem;
+  margin-left: 20px;
+}
+
+.living{
+  width: 330px;
+  height: 400px;
+}
+
+.livingCost{
+  display: flex;
+  margin-left: 5rem;
+}
+
+.vector{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-left:50px;
+}
+
+.vector>* {
+  flex: 0 0 33.3333%;
+}
+
+.vecLogo{
+  margin-left: 60px;
+}
+
+h2{
+  margin: 70px;
+  margin-top: 8rem;
+  margin-bottom: 0%;
+  line-height: 1.5rem;
+}
+
+.viewProps{
+  color: white;
+  background-color: #F4511E;
+  border-color: #F4511E;
+  width: 90%;
+  height: 50px;
+  margin-top: 2.5rem;
+  margin-left: 28rem;
+ 
+}
+
+span{
+  color: #F4511E;
+  text-decoration: underline;
+}
+
+.properList{
+  background-color: whitesmoke;
+  width: 95%;
+  margin-left: 1.5rem;
+}
+
+.property{
+  display: inline-flex;  
+  margin-left: 1rem;
+}
+
+.list{
+  margin-top: 55px;
+}
+
+.Properties{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+.ImgProperty{
+  width: 300px;
+  margin-left: 60px;
+  margin-bottom: 2rem;
+}
+
+.ImgProperty:hover{
+  transform: scale(1.1);
+  transition: 500ms linear; 
+}
+
+h4{
+  word-break: break-word;
+  width:150px;
+  text-align:center ;
+}
+
+.flexible{
+  display: flex;
+  margin-bottom: -80px;
+}
+
+.btnSearch{
+  background-color: #F4511E;
+  border-color: #F4511E;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  width: 160px;
+  height:40px;
+
+}
+
+.newProperty{
+  background-color: whitesmoke;
+  width: 80%;
+  height: 750px;
+  margin-left: 6.5rem;
+}
+
+.yourProperty{
+  padding-top: 2.5rem;
+  font-size: 1.2rem;
+}
+
+form{
+  margin-bottom: 3rem;
+  margin: 2rem;
+}
+
+.formInput{
+  margin-left: 0.9rem;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h5{
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+h6{
+  font-size: 1.2rem;
+  text-align: center;
+  color: #F4511E; 
+  margin-top: 2.5rem;
+}
+
+label{
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input{
+  width: 280px; 
+  margin-bottom: 1.9rem;
+  height: 30px;
+}
+
+textarea{
+  width: 94%;
+  height: 150px;
+  margin-left: 1rem;
+}
+
+.lifestyle{
+  display: flex;
+  margin: 50px;
+  gap: 20px;
+  margin-bottom: 8rem;
+
+}
+
+.life-img{
+  width: 230px;
+  height: 220px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+.life-img:hover{
+  transform: scale(1.1);
+  transition: 500ms linear; 
+}
+
+.life{
+  height: 380px;
+  width: 250px;
+}
+
+.flex{
+  font-size: 1.2rem;
+  line-height: 2.1rem;
+  margin-top: 6rem;
+}
+
+.flex-option{
+  word-break: break-word;
+  width: 250px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 2.5rem;
+}
+
+.upload{
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.newProps{
+  background-color: #F4511E;
+  border-color: #F4511E;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  width: 35%;
+  height: 40px;
+  margin-top: 1rem;
+}
+
+.footer{
+  display: flex;
+  margin-left: 13rem;
+}
+
+.address{
+  margin-top: 6rem;
+  margin-left: 15rem;
+}
+
+.mainRoad{
+  margin-bottom: 1rem ;
+}
+.socialMedia{
+  margin-left: 1rem;
+  color: #F4511E;
+}
+
+.icon{
+  color: #F4511E;
+}
+
+.link{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+a{
+  text-decoration: none;
+  margin-top: 3.5rem;
+  color: black;
+}
+
+.copyright{
+  margin-top: 0%;
+}
+
+.testImg{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.slider{
+  display: flex;
+  background-color: rgb(225, 204, 179);
+  height: 550px;
+  width: 90%;
+  margin-left: 4rem;
+  margin-top: 5rem; 
+}
+
+.testimonial{
+  display: flex;
+}
+
+.testimonialText{
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.sliderText{
+  margin-left: 4rem;
+  margin-top: 2rem;
+}
+
+.lorem{
+  word-break: break-word;
+  width: 300px;
+  line-height: 2rem;
+  font-size: 1rem;
+}
+
+.quote{
+  font-size: 2.5rem;
+  color: #F4511E;
+}
+
+span.visually-hidden{
+  display: none;
+}
+
+.video iframe {
+  height: 550px;
+  width: 60%;
+  margin-left: 8rem;
+}
+
+
+@media (max-width:600px) {
+ html, body{
+    overflow-x: hidden;
+  }
+
+  .bg_image{
+    position: relative;
+    margin-left: 2rem;
+  }
+
+  .bgText{
+    margin-left: 1rem;
+  }
+
+  .nav-links{
+    display: flex;
+		flex-direction: column;
+		position: absolute;
+		text-align: center;
+		width: 80%;
+    height: 600px;
+		top: 60px;
+    right: -80%;
+		transition: 0.5s all;
+		font-size: 0.8rem;
+		background-color:black;
+    z-index: 2; 
+  }
+
+  .nav-links.active {
+		left: 0;
+	}
+
+  .nav-item{
+    margin: 1rem;
+    margin-top: 5rem;
+  }
+
+  .nav-icon{
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 8rem;
+    font-size: 2rem;  
+  }
+
+  .Fransico{
+    display: inline-block;
+    margin-top: -7%;
+  }
+
+  h1{
+    font-size: 1.7rem;
+    margin: 0%;
+    word-break: break-word;
+    width: 270px;
+    text-align: center;
+  }
+
+  .map{
+    width: 300px;
+    height: 300px;
+    margin-right: 18rem;
+    margin-top: 2rem;
+  }
+
+  .search{
+    width: 280px;
+    margin-right: 50%;
+    font-size: 1rem;
+    height: 40px;
+  }
+
+  .neighbour{
+    font-size: 0.7rem;
+  }
+
+  .faSearch{
+    font-size: 12px;
+    margin-right: 13px;
+  }
+
+  h2{
+    margin-top: 7%;
+    margin-left: 2.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .livingCost{
+    display: block;
+    margin: 3%;
+  }
+
+  .vector{
+    display: flex;
+    margin-left: 8%;
+    margin-top: 0%;
+  }
+  .properList{
+    width: 100%;
+    margin: 0%;
+  }
+
+  .ImgProperty{
+    width: 70%;
+    margin-left: 16%
+  }
+
+  .viewProps{
+    margin-left: 0%;
+    width: 80px;
+  }
+  .list{
+    display: flex;   
+    margin-left: 5%;
+  }
+
+  .listOf{
+    margin-right: 1.2rem;
+  }
+
+  .flexible, .slider{
+    display: block;
+  }
+
+  .lifestyle{
+    margin-left: 8%;
+    margin-top: 10%;
+    margin-bottom: 0%;
+  }
+
+  .life-img{
+    width: 85%;
+    height: 130px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+  }
+  .life{
+    height: 190px;
+    width: 150px;
+  }
+
+  .flex{
+    margin-top: 0%;
+    margin-left: 2.5rem;
+  }
+ 
+  p{
+    word-break: break-word;
+    width: 280px;
+    font-size: 1rem;
+  }
+
+  .newProperty{
+    margin-top: 9rem;
+    margin-left: 0%;
+    width: 100%;
+    height: 80%;
+  }
+
+  .yourProperty, h6{
+    font-size: 0.85rem;
+  }
+
+  input, textarea{
+    width: 280px;
+  }
+
+  .upload{
+    margin-right: 2.2rem;
+  }
+
+  .newProps{
+    font-size: 1rem;
+    width: 70%;
+  }
+
+  .slider{
+    margin-top: -9%;
+    margin-left: 0%;
+    width: 100%;
+    height: 800px;
+  }
+
+  .quote{
+    margin-top: 3rem;
+    margin-left: 4%;
+  }
+
+  .sliderText, .lorem, .testImg{
+    margin-left: 4%;
+  }
+
+  .video iframe{
+    margin-left: 5%;
+    width: 48%;
+    height: 300px;
+    margin-top: 3rem;
+  }
+
+  .footer, .address{
+    display: block;
+    margin: 2%;
+    margin-top: 2rem;
+  }
+
+  .link{
+    display: block;
+    font-size: 0.9rem;
+  }
+
+  .linkFooter{
+    margin: 2rem;
+    margin-left: 7rem;
+  }
+
+  .copyright{
+    margin: 1.2rem;
+  }
+
+}
