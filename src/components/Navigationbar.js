@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FiMenu, FiX } from 'react-icons/fi';
-// import { Nav, Navbar, NavLink } from "react-bootstrap";
 import loggo from '../assets/images/loggo.png';
 import bg from '../assets/images/bg.png';
 
@@ -20,7 +19,7 @@ function Navigationbar(){
     return(
 
     <div className='navBar'>
-        <img src={bg} className="backgro" alt="backgroundImg"></img> 
+        <img src={bg} className="backgro" alt="backgroundImg" />
 
         <div className='bg_image'>
                 <Link to="/" className="nav-logo">

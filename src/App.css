@@ -97,10 +97,9 @@ h1{
 .faSearch{
   background-color: blue;
   color: white;
-  padding: 10px;
-  margin: 5px;
-  font-size: 2.2rem;
-  margin-left: 20px;
+  margin: 11px;
+  font-size: 1.5rem;
+  margin-left: 15px;
 }
 
 .living{
@@ -154,7 +153,7 @@ span{
 .properList{
   background-color: whitesmoke;
   width: 95%;
-  margin-left: 1.5rem;
+  margin-left: 2.2rem;
 }
 
 .property{
@@ -174,7 +173,7 @@ span{
 
 .ImgProperty{
   width: 300px;
-  margin-left: 60px;
+  margin-left: 4.5rem;
   margin-bottom: 2rem;
 }
 
@@ -202,14 +201,15 @@ h4{
   font-size: 20px;
   width: 160px;
   height:40px;
+  margin-top: 1.5rem;
 
 }
 
 .newProperty{
   background-color: whitesmoke;
   width: 80%;
-  height: 750px;
-  margin-left: 6.5rem;
+  height: 800px;
+  margin-left: 7.2rem;
 }
 
 .yourProperty{
@@ -262,9 +262,10 @@ textarea{
 
 .lifestyle{
   display: flex;
-  margin: 50px;
-  gap: 20px;
+  margin-left: 6rem;
+  gap: 18px;
   margin-bottom: 8rem;
+  margin-top: 3rem;
 
 }
 
@@ -289,6 +290,7 @@ textarea{
   font-size: 1.2rem;
   line-height: 2.1rem;
   margin-top: 6rem;
+  margin-left: 7rem;
 }
 
 .flex-option{
@@ -379,7 +381,7 @@ a{
 }
 
 .sliderText{
-  margin-left: 4rem;
+  margin-left: 7rem;
   margin-top: 2rem;
 }
 
@@ -402,13 +404,14 @@ span.visually-hidden{
 .video iframe {
   height: 550px;
   width: 60%;
-  margin-left: 8rem;
+  margin-left: 14rem;
 }
 
 
 @media (max-width:600px) {
- html, body{
-    overflow-x: hidden;
+html, body{
+    overflow-x: hidden; 
+    top: 0;
   }
 
   .bg_image{
@@ -428,7 +431,7 @@ span.visually-hidden{
 		width: 80%;
     height: 600px;
 		top: 60px;
-    right: -80%;
+    left: -110%;
 		transition: 0.5s all;
 		font-size: 0.8rem;
 		background-color:black;
@@ -500,9 +503,13 @@ span.visually-hidden{
   }
 
   .vector{
-    display: flex;
-    margin-left: 8%;
+    margin: 6%;
     margin-top: 0%;
+    margin-bottom: 2.5rem;
+  }
+
+  .vecLogo{
+    margin-top: 2rem;
   }
   .properList{
     width: 100%;
@@ -532,9 +539,9 @@ span.visually-hidden{
   }
 
   .lifestyle{
-    margin-left: 8%;
     margin-top: 10%;
     margin-bottom: 0%;
+    margin: 7%;
   }
 
   .life-img{
@@ -543,6 +550,7 @@ span.visually-hidden{
     margin-bottom: 20px;
     border-radius: 15px;
   }
+
   .life{
     height: 190px;
     width: 150px;
@@ -571,9 +579,9 @@ span.visually-hidden{
   }
 
   input, textarea{
-    width: 280px;
+    width: 260px;
   }
-
+  
   .upload{
     margin-right: 2.2rem;
   }
@@ -623,7 +631,8 @@ span.visually-hidden{
   }
 
   .copyright{
-    margin: 1.2rem;
+    margin: 1rem;
+    font-size: 0.8rem;
   }
 
 }
