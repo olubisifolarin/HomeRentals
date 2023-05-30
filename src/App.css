@@ -503,7 +503,7 @@ html, body{
   }
 
   .vector{
-    margin: 2%;
+    margin: 3%;
     margin-top: 0%;
     margin-bottom: 2.5rem;
   }
@@ -583,12 +583,12 @@ html, body{
   }
   
   .upload{
-    margin-right: 2.2rem;
+    margin-right: 1.3rem;
   }
 
   .newProps{
     font-size: 1rem;
-    width: 70%;
+    width: 75%;
   }
 
   .slider{
@@ -633,6 +633,7 @@ html, body{
   .copyright{
     margin: 1rem;
     font-size: 1rem;
+    text-align: center;
   }
 
 }
