@@ -503,7 +503,7 @@ html, body{
   }
 
   .vector{
-    margin: 0%;
+    margin: 2%;
     margin-top: 0%;
     margin-bottom: 2.5rem;
   }
@@ -632,7 +632,6 @@ html, body{
 
   .copyright{
     margin: 1rem;
-    text-align: center;
     font-size: 1rem;
   }
 
