@@ -171,7 +171,7 @@ span{
   width: 27%;
   display: flex;
   flex-wrap: wrap;
-  margin: 2rem;
+  margin-left: 2rem;
   padding: 1rem;
   margin-top: 3rem;
 }
@@ -228,6 +228,7 @@ form{
 .row{
   display: flex;
   flex-wrap: wrap;
+  margin-left: 4rem;
 }
 
 h5{
@@ -256,7 +257,7 @@ input{
 textarea{
   width: 90%;
   height: 150px;
-  margin-left: 1rem;
+  margin-left: 3rem;
 }
 
 .lifestyle{
@@ -413,10 +414,10 @@ span.visually-hidden{
 }
 
 .video iframe {
-  height: 550px;
+  height: 580px;
   width: 60%;
   margin-left: 8rem;
-  margin-top: -2rem;
+  margin-top: -1.8rem;
 }
 
 
@@ -440,7 +441,7 @@ html, body{
 		flex-direction: column;
 		position: absolute;
 		text-align: center;
-		width: 80%;
+		width: 70%;
     height: 600px;
 		top: 60px;
     left: -80%;
@@ -803,37 +804,6 @@ html, body{
   @media (max-width:920px) {
     html, body{
       overflow-x: hidden;
-    }
-  
-    .nav-links{
-      display: flex;
-      flex-direction: column;
-      position: absolute;
-      text-align: center;
-      width: 80%;
-      height: 600px;
-      top: 60px;
-      left: -150%;
-      transition: 0.5s all;
-      font-size: 0.8rem;
-      background-color:black;
-      z-index: 2; 
-    }
-  
-    .nav-links.active {
-      left: 0;
-    }
-  
-    .nav-item{
-      margin: 1rem;
-      margin-top: 5rem;
-    }
-  
-    .nav-icon{
-      display: flex;
-      margin-top: 2rem;
-      margin-left: 30rem;
-      font-size: 3rem;  
     }
   
     .Fransico{
