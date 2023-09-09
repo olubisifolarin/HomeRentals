@@ -14,32 +14,13 @@ const Properties = () => {
                     <button className='viewProps'>View Properties</button>  
                 </div>
 
-                <div className="row Properties g-0">
-                    <div className="col-md-4">
-                        <img src={group4} className="ImgProperty" alt="Properties" />
-                    </div>
-
-                    <div className="col-md-4">
-                        <img src={group} className="ImgProperty"  alt="Properties" />
-                    </div>
-
-                    <div className="col-md-4">
-                        <img src={group3}  className="ImgProperty" alt="Properties" />
-                    </div>
-
-                    <div className="col-md-4">
-                        <img src={group1}  className="ImgProperty" alt="Properties" />
-                    </div>
-
-                    <div  className="col-md-4">
-                        <img src={group4}  className="ImgProperty" alt="Properties" />
-                    </div>
-
-                    <div  className="col-md-4">             
-                        <img src={group}  className="ImgProperty" alt="Properties" />
-                    </div>
-                    
-                    
+                <div className="row">
+                    <img src={group4} className="ImgProperty" alt="Properties" />
+                    <img src={group} className="ImgProperty"  alt="Properties" />
+                    <img src={group3}  className="ImgProperty" alt="Properties" />
+                    <img src={group1}  className="ImgProperty" alt="Properties" />
+                    <img src={group4}  className="ImgProperty" alt="Properties" />   
+                    <img src={group}  className="ImgProperty" alt="Properties" />
                 </div>  
                 
         </div>

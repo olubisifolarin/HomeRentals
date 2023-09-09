@@ -62,7 +62,7 @@ function Home(){
                 </div>
 
                 <div className='flex'>
-                    <p className='flex-option'>Flexible and Options to suit your lifestyle</p>
+                    <p className='flex-option'>Flexible and Options <br></br >to suit your lifestyle</p>
                     <p>You need it? We got it. We make finding your next home easy, comfortable and simple. From our happiness guarantee to our selective roommate finder option. We provide you the flexibility that you most desire. </p>
                     <button className='btnSearch btn btn-lg'>Search Rooms</button>
                 </div>
