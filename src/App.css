@@ -154,7 +154,7 @@ span{
 
 .properList{
   background-color: whitesmoke;
-  width: 90%;
+  width: 95%;
   margin-left: 2.2rem;
 }
 
@@ -168,7 +168,7 @@ span{
 }
 
 .ImgProperty{
-  width: 28%;
+  width: 27%;
   display: flex;
   flex-wrap: wrap;
   margin: 2rem;
@@ -443,7 +443,7 @@ html, body{
 		width: 80%;
     height: 600px;
 		top: 60px;
-    left: -100%;
+    left: -80%;
 		transition: 0.5s all;
 		font-size: 0.8rem;
 		background-color:black;
