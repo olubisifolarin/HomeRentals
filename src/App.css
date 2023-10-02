@@ -451,6 +451,7 @@ html, body{
     left: 100%;
 		transition: 0.5s all;
 		font-size: 0.8rem;
+    margin-left: 2rem;
 		background-color:black;
     z-index: 2; 
   }
@@ -514,7 +515,7 @@ html, body{
 
   .livingCost{
     display: block;
-    margin: 3%;
+    margin: 1.5%;
   }
 
   .vector{
@@ -537,7 +538,7 @@ html, body{
 
   .ImgProperty{
     width: 70%;
-    margin-left: 1.2rem;
+    margin-left: 1rem;
     margin-top: 2rem;
   }
 
@@ -622,9 +623,7 @@ html, body{
   .sliderText{
     margin-top: 0;
   }
-  .textimonialLorem{
-    margin:0;
-  }
+  
   .testimonial{
     padding: -5rem!important;
   }
@@ -636,7 +635,9 @@ html, body{
 
   .textimonialLorem{
     word-break: break-all;
-    width: 100%;;
+    width: 100%;
+    margin: 0;
+
   }
   
   .sliderText{
